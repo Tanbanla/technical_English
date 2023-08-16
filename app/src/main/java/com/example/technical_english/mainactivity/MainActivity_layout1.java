@@ -88,6 +88,7 @@ public class MainActivity_layout1 extends AppCompatActivity implements SearchVie
     @Override
     public boolean onQueryTextChange(String s) {
         adaptertudien.getFilter().filter(s);
+        Toast.makeText(this, "Welecom", Toast.LENGTH_SHORT).show();
         return false;
     }
 }
