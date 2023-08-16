@@ -77,10 +77,11 @@ public class MainActivity_layout1 extends AppCompatActivity implements SearchVie
             }
         });
     }
-
+// heheh thử
     @Override
     public boolean onQueryTextSubmit(String s) {
         adaptertudien.getFilter().filter(s);
+        Toast.makeText(this, "Welecom", Toast.LENGTH_SHORT).show();
         return false;
     }
 
