@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SKHGARMENT</string>
+    <string name="tile_home">Home</string>
+    <string name="tile_history">Setting</string>
+    <string name="tile_favourite">Favourite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

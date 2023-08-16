@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="@string/tile_home"/>
+    <item
+        android:id="@+id/favourite"
+        android:enabled="true"
+        android:icon="@drawable/ic_favourite"
+        android:title="@string/tile_favourite"/>
+    <item
+        android:id="@+id/caidat"
+        android:enabled="true"
+        android:icon="@drawable/baseline_settings"
+        android:title="@string/tile_history"/>
+</menu>
